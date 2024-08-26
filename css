@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#topbar{
+    height:50px;
+    width:1300px;
+    background-color: rgba(6, 6, 6, 0.779);
+    color:white;
+    position: fixed;
+    
+}
+#topbar:hover{
+    transition: all ease-in ;
+
+}
+#logo{
+    color: rgb(150, 8, 150);
+    font-size: large;
+}
+
+.set{
+    
+    display:flex;
+    
+}
+ .mm a{
+    text-decoration: none;
+    color:#c6a810;
+}
+.content{
+    color:#FFF;
+    background-image: url(istockphoto-1186214696-612x612.jpg);
+    max-width: 100%;
+    height: 500px;
+    background-size:cover;
+    text-shadow: #a91212;
+    
+    background-repeat: no-repeat;
+}
+.sl{
+    margin:100px;
+
+    gap:20px;
+
+}
+.sl p{
+    width:500px;
+    height:600px;
+    background-color: rgba(140, 138, 138, 0.354);
+
+    
+}
